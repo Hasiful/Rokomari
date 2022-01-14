@@ -645,6 +645,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
 }
 .footer_section{
     background-color: #FFFFFF;
@@ -662,8 +664,12 @@
     margin-left: -15px;
     margin-bottom: 10px;
 }
-.footer_item{
-    
+.footer_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .footer_list{
     margin-bottom: 20px;
