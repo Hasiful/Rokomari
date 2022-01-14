@@ -1,0 +1,87 @@
+
+@media(min-width: 540px){
+    .recent_product_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+    .user_section_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .must_read_item_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .author_section_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .contact_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+}
+@media(min-width: 768px){
+    .recent_product_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+    }
+    .user_section_wrapper{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .top_button_list_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .must_read_item_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .author_section_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    .contact_wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+    }
+}
+@media(min-width: 991px){
+    .mobile_icon{
+        display: none;
+    }
+    .header_search {
+        display: block;
+    }
+    .header_nav{
+        display: block;
+    }
+    .nav_menu{
+        display: block;
+    }
+    .top_button_list_wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .must_read_item_wrapper {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .author_section_wrapper{
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .contact_wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 20px;
+    }
+}
+@media(min-width: 1240px){
+    .recent_product_wrapper {
+        grid-template-columns: repeat(6, 1fr);
+        grid-row-gap: 20px;
+    }
+    .user_section_wrapper{
+        grid-template-columns: repeat(7, 1fr);
+    }
+    .top_button_list_wrapper {
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 36px;
+    }
+}
